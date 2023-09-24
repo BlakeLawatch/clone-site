@@ -1,0 +1,78 @@
+.wood-image {
+    background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZCUyMGRhcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60);
+}
+
+.main-color {
+    background-color: #114f21;
+}
+
+.secondary-color {
+    background-color: #d8d6d8;
+}
+
+.box {
+    bottom: 15%;
+    left: 65%;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+    background-color: beige;
+}
+
+.review-shadow {
+    box-shadow: 0px 0px 10px black;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 4px black;
+}
+
+.text-style {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 15%;
+}
+
+.button {
+    border-radius: 14px;
+    float: right;
+}
+
+.button:hover {
+    background-color: #6bcd84;
+    transition: all .2s linear;
+}
+
+.border-box {
+    border: solid #114f21;
+    background-color: whitesmoke;
+}
+
+.skranji {
+    font-family: "skranji", cursive;
+}
+
+.permanent-marker {
+    font-family: "permanent marker", cursive;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+
+/* media queries */
+
+
+@media (max-width: 767px) {
+    .card-location {
+        position: static;
+    }
+}
+
+@media (max-width: 767px) {
+    .video-mobile {
+        width: 75%;
+        margin-left: 80px;
+    }
+}
