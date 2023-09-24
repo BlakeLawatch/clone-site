@@ -29,7 +29,6 @@
 .text-style {
     font-size: 30px;
     font-weight: bolder;
-    padding-top: 15%;
 }
 
 .button {
@@ -39,7 +38,7 @@
 
 .button:hover {
     background-color: #6bcd84;
-    transition: all .2s linear;
+    transition: all .15s linear;
 }
 
 .border-box {
@@ -58,6 +57,11 @@
 .video {
     width: 100%;
     aspect-ratio: 4/3;
+}
+
+.material-font {
+    padding-top: 8%;
+    align-content: center;
 }
 
 
